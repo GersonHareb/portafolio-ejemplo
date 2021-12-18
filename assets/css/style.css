@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.navbar {
+  background-color: #660066;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Oswald";
+}
+/*--------------HERO SECTION-------------*/
+.hero-line {
+  opacity: 1;
+  width: 300px;
+}
+
+#hero-section {
+  background-image: url("../img/bg_hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: #660066;
+  position: relative;
+}
+
+#hero-section div {
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#hero-section h1, h2 {
+  font-family: "Oswald";
+  font-size: 72px;
+}
+
+
